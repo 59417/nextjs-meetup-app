@@ -1,0 +1,29 @@
+[{
+    "_id": { 
+        "$oid":"624f677a1a76a436fe4e9eed" 
+    },
+    "title":"The First Meetup!",
+    "image":"https://stage.taipei101mall.com.tw/uploads/content/3539a78f-df62-177c-f388-09243bc44ed2.png",
+    "address":"Taipei, Taiwan",
+    "description":"This is the first meetup."
+},
+{
+    "_id": {
+        "$oid": "62543d83d107003b08a04de3"
+    },
+    "title": "The Second Meetup!",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/57/Liouho-Night-Market-Kaohsiung.jpg",
+    "address": "Kaohsiung, Taiwan",
+    "description": "This is the second meetup."
+},
+{
+    "_id": {
+        "$oid": "62543dd2d107003b08a04de5"
+    },
+    "title": "The Third Meetup!",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/幽靜的中山公園湖心亭.jpg/1024px-幽靜的中山公園湖心亭.jpg",
+    "address": "Taichung, Taiwan",
+    "description": "This is the third meetup."
+}]
+
+
