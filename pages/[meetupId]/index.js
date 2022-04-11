@@ -44,8 +44,8 @@ export async function getStaticPaths () {
     // console.log(meetupIds);
 
     return {
-        // fallback: 'blocking',
-        fallback: false,  // if user enter an url not included > return 404
+        fallback: 'blocking',  // true: immediately return an empty page
+        // fallback: false,  // if user enter an url not included > return 404
         paths: meetupIds.map(meetup => ({
             params: {
                 meetupId: meetup._id.toString()
